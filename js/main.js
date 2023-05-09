@@ -47,7 +47,7 @@ $(document).ready(function () {
         $('body').toggleClass('hiden')
     })
 
-    let header = $('.header-fixed').offset().top
+    let header = $('.header-fixed').offset()?.top
     $(window).scroll(function(){
      
         // console.log(header);
