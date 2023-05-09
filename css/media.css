@@ -56,6 +56,14 @@
         justify-content: space-between;
     }
 
+    .header-fixed{
+        padding: 35px 10px 0;
+    }
+
+    .header-fixed.active{
+        padding: 20px 10px;
+    }
+
     .burger {
         display: block;
         width: 60px;
@@ -210,5 +218,13 @@
 
     .info-text {
         text-align: center;
+    }
+
+    .link-down {
+        bottom: 10px;
+    }
+
+    .form-btn {
+        margin: 0 auto;
     }
 }
