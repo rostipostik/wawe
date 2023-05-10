@@ -47,9 +47,8 @@ $(document).ready(function () {
         $('body').toggleClass('hiden')
     })
 
-    let header = $('.header-fixed').offset()?.top
     $(window).scroll(function(){
-     
+    let header = $('.header-fixed').offset().top
         // console.log(header);
         if(header >= 999){
             $('.header-fixed').addClass('active')
