@@ -50,7 +50,7 @@ $(document).ready(function () {
     $(window).scroll(function(){
     let header = $('.header-fixed').offset().top
         // console.log(header);
-        if(header >= 999){
+        if(header >= 99){
             $('.header-fixed').addClass('active')
         } else{
             $('.header-fixed').removeClass('active')

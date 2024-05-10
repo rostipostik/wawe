@@ -112,6 +112,10 @@
         gap: 30px;
     }
 
+    .colm-6 {
+        width: 100%;
+    }
+
     .inner-title::after{
         display: none;
     }
@@ -124,6 +128,23 @@
 
     .result-top {
         flex-wrap: wrap;
+    }
+
+    .bottom-block {
+        width: 100%;
+    }
+
+    .bottom-content {
+        max-width: 100%;
+    }
+
+    .block-title {
+        background: none;
+        width: 100%;
+    }
+
+    .top-block {
+        width: 100%;
     }
 
     .slider-img figcaption {
@@ -140,11 +161,6 @@
         font-size: 120px;
         line-height: 180px;
     }
-
-    .colm-6 {
-        max-width: 480px;
-        width: 100%;
-    } 
     
     .indications {
         padding: 0 10px 98px;
