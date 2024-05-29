@@ -17,6 +17,7 @@
 
     .skill-wrapper {
         padding: 50px 10px 150px;
+        flex-wrap: wrap;
     }
 
     .gallery {
