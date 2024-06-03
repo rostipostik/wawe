@@ -275,14 +275,16 @@ main {
 }
 
 .bottom-block .bottom-wawe:first-child {
-    width: 253px;
+    max-width: 253px;
+    width: 100%;
     background-image: url(../img/wawe-1.svg);
     background-repeat: no-repeat;
     background-position: left top;
 }
 
 .bottom-block .bottom-wawe:nth-child(2) {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     background-image: url(../img/wawe-2.svg);
     background-repeat: no-repeat;
     background-position: left top;
@@ -383,6 +385,7 @@ main {
     display: flex;
     gap: 20px;
     margin-bottom: 50px;
+    justify-content: center;
 }
 
 .gallery-list li {
